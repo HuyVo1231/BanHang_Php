@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+}
+.clear {
+  clear: both;
+}
+.title_admincp {
+  font-size: 40px;
+  color: red;
+}
+
+.wrapper {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lietke {
+  padding-top: 50px;
+  text-align: center;
+  align-items: center;
+  max-width:1200px;
+}
+table {
+  width: 100%;
+}
+h4 {
+  margin: 20px 50px;
+  text-align: center;
+  color: #212529;
+}
+th {
+  background-color: #e9ecef;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #212529;
+}
+td > a:hover {
+  opacity: 0.5;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
